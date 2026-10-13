@@ -72,26 +72,6 @@ body {
   background-color: var(--habh-blue);
   padding: 28px 0;
 }
-.header-divider {
-  height: 48px;
-  background-color: #fff;
-  overflow: hidden;
-}
-.header-divider::before {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: var(--habh-blue);
-  -webkit-mask-image: url('assets/pattern.png');
-  mask-image: url('assets/pattern.png');
-  -webkit-mask-size: auto 146px;
-  mask-size: auto 146px;
-  -webkit-mask-position: center;
-  mask-position: center;
-  -webkit-mask-repeat: repeat-x;
-  mask-repeat: repeat-x;
-}
 .header-separator {
   width: 100%;
   height: var(--header-separator-height);
